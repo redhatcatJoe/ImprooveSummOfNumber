@@ -20,13 +20,13 @@ public class Summ {
         for (int i = 1; i <=numOfNumbersInNumber ; i++) {
             switch (i){
                 case 1:
-                    numList.add (s%( (int)Math.pow (10,i)));
+                    numList.add (s%10);
 //                    System.out.println ("case1" );
 //                    System.out.println (numList.get (0) );
 //                    System.out.println ("i="+i );
                     break;
                 case 2:
-                    numList.add (s%( (int)Math.pow (10,i))/10);
+                    numList.add ((s% 100)/10);
 //                    System.out.println ("case2" );
 //                    System.out.println (numList.get (1) );
 //                    System.out.println ("i="+i );
