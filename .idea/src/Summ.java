@@ -15,7 +15,7 @@ public class Summ {
         numOfNumbersInNumber = (int) Math.log10(s)+1;   //узнаем разрядность
         //десятичный логарифм - в какую степень нужно возвести 10 что бы получить s +1
         //int отбрасывает знаки после запятой
-        System.out.println ("разрядность числа="+numOfNumbersInNumber );
+        System.out.println ("разрядность числаgg="+numOfNumbersInNumber );
 
         for (int i = 1; i <=numOfNumbersInNumber ; i++) {
             switch (i){
@@ -25,7 +25,7 @@ public class Summ {
 //                    System.out.println (numList.get (0) );
 //                    System.out.println ("i="+i );
                     break;
-               
+
                 default:
                     numList.add (s%( (int)Math.pow (10,i))/((int)Math.pow (10,i-1)));
 //                    System.out.println ("default" );
