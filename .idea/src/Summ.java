@@ -11,7 +11,7 @@ public class Summ {
     void logic(){                                     //метод узнает разрядность числа и заносит каждое число в коллекцию
         Scanner scanner = new Scanner (System.in);
         System.out.println ("input number" );
-        int s = Integer.parseInt (scanner.nextLine ());
+        int s =  scanner.nextInt ();
         numOfNumbersInNumber = (int) Math.log10(s)+1;   //узнаем разрядность
         //десятичный логарифм - в какую степень нужно возвести 10 что бы получить s +1
         //int отбрасывает знаки после запятой

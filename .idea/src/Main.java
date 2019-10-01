@@ -4,10 +4,10 @@ public class Main {
         su.logic ();
         System.out.println ("сумма чмсел ="+su.summ () );
 
-//        System.out.println (1234%10 ); // last
-//        System.out.println (1234%100/10 ); //
-//        System.out.println (1234%1000/100);//
-//        System.out.println (1234%10000/1000 ); //first
+//        System.out.println (1234%10 ); // last   4
+//        System.out.println (1234%100/10 ); //3
+//        System.out.println (1234%1000/100);//2
+//        System.out.println (1234%10000/1000 ); //first 1
 
 
 
