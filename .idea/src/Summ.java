@@ -25,13 +25,7 @@ public class Summ {
 //                    System.out.println (numList.get (0) );
 //                    System.out.println ("i="+i );
                     break;
-                case 2:
-                    numList.add ((s% 100)/10);
-//                    System.out.println ("case2" );
-//                    System.out.println (numList.get (1) );
-//                    System.out.println ("i="+i );
-
-                    break;
+               
                 default:
                     numList.add (s%( (int)Math.pow (10,i))/((int)Math.pow (10,i-1)));
 //                    System.out.println ("default" );
